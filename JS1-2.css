@@ -40,3 +40,11 @@ body {
     display: flex;
     justify-content: space-between;
 }
+
+.task-done {
+    text-decoration: line-through;
+}
+
+.task-tabs div {
+    cursor: pointer;
+}
