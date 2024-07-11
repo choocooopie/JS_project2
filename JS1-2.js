@@ -90,6 +90,7 @@ function filter(e) {
     underLine.style.left = e.target.offsetLeft + "px";
     underLine.style.top =
       e.target.offsetTop + (e.target.offsetHeight - 4) + "px";
+  } 
 
   filterList = [];
   if (mode === "ongoing") {
